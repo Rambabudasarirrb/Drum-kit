@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    background-color: skyblue;
+    text-align: center;
+  }
+  .drum-kit-title {
+    font-family: "Roboto";
+    font-size: 40px;
+    text-shadow: 2px 0 #eb3486;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  
+  .drum {
+    height: 120px;
+    width: 120px;
+    border-width: 8px;
+    border-color: #bab8b9;
+    font-size: 30px;
+    color: red;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    font-weight: 900;
+    background-color: #ffffff;
+    outline:none;
+  }
+  .set {
+    margin-bottom:60px;
+    margin-top: 60px;
+  }
+
+  .w {
+    background-image: url("images/crash.png");
+    background-size:cover;
+  }
+
+  .a {
+    background-image: url("images/kick.png");
+    background-size: cover;
+  }
+
+  .s {
+    background-image: url("images/snare.png");
+    background-size: cover;
+  }
+  .d {
+    background-image: url("images/tom1.png");
+    background-size: cover;
+  }
+
+  .j {
+    background-image: url("images/tom2.png");
+    background-size: cover;
+  }
+
+  .k {
+    background-image: url("images/tom3.png");
+    background-size: cover;
+  }
+
+  .l {
+    background-image: url("images/tom4.png");
+    background-size: cover;
+  }
+
+  .icon-img {
+    height: 25px;
+    width: 25px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    box-shadow: 2px 0 #eb3486;
+  }
+
+  footer {
+    color:#ffffff;
+    font-family: 'Roboto';
+    margin-top:50px;
+  }
+
+  .pressed {
+    box-shadow: 0 3px 4px 0 blue;
+    opacity: 0.6;
+  }
