@@ -1,12 +1,3 @@
-/*var numberOfInstruments = document.querySelectorAll(".drum").length;
-
-for (var i=0; i<numberOfInstruments; i++) {
-    document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-        var buttonInnerHtml = this.innerHtml;
-        makeSound(buttonInnerHtml);
-        buttonAnimation(buttonInnerHtml);
-  });
-}*/
 
 
     var crash= new Audio();
